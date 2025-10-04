@@ -28,7 +28,7 @@
     --oxpins-white-rgb: 255, 255, 255;
     --oxpins-base: #35908b;
     --oxpins-base-rgb: 0, 113, 93;
-    --oxpins-black: #283734;
+    --oxpins-black: #726052;
     --oxpins-black-rgb: 40, 55, 52;
     --oxpins-primary: #fbd45a;
     --oxpins-primary-rgb: 251, 212, 90;
@@ -930,7 +930,7 @@ ul {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #90c8be;
+    color: var(--oxpins-white);
     position: relative;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -949,7 +949,7 @@ ul {
 .stricky-header .main-menu__list>li.current-menu-item>a,
 .stricky-header .main-menu__list>li.current-menu-page>a,
 .stricky-header .main-menu__list>li:hover>a {
-    color: var(--oxpins-white);
+    color: #90c8be;
 }
 
 .main-menu .main-menu__list>li>ul,
