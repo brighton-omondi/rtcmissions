@@ -3274,6 +3274,8 @@ body.locked .page-wrapper {
     width: 100%;
     border-top-left-radius: var(--oxpins-bdr-radius);
     border-top-right-radius: var(--oxpins-bdr-radius);
+    border-bottom-left-radius: var(--oxpins-bdr-radius);
+    border-bottom-right-radius: var(--oxpins-bdr-radius);
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
     transition-duration: 0.7s;
