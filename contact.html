@@ -217,8 +217,7 @@
                     <h2 class="section-title__title">Feel free to write us <br> anytime</h2>
                 </div>
                 <div class="contact-page__form-box">
-                    <form action="assets/inc/sendemail.php" class="contact-page__form contact-form-validated"
-                        novalidate="novalidate">
+                    <form action="https://formsubmit.co/0868f4f3bdff880d598ec199eb32161a" method="POST">
                         <div class="row">
                             <div class="col-xl-6">
                                 <div class="contact-form__input-box">
@@ -246,6 +245,9 @@
                                 <div class="contact-form__input-box text-message-box">
                                     <textarea name="message" placeholder="Write a message" required></textarea>
                                 </div>
+                                <input type="hidden" name="_next" value="https://rtcmissions.vercel.app/contact.html">
+                                <input type="hidden" name="_template" value="box">
+                                <input type="hidden" name="_subject" value="RTC Ministries Submission!">
                                 <div class="contact-form__btn-box">
                                     <button type="submit" class="thm-btn contact-form__btn">Send a message</button>
                                 </div>
